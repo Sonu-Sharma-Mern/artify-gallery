@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your JavaScript Playground</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div id="page-container">
+        <div class="nav">
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><img src="./images/artify.png" alt="artify-logo"></a>
+                    <div class="title">
+                        Artify Gallery
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="modernArt.html" onclick="getArt()">Modern Art</a>
+                    </li>
+                    <li>
+                        <a href="classicsArt.html" onclick="getArt()">Classics</a>
+                    </li>
+                    <li>
+                        <a href="sculpturesArt.html" onclick="getArt()">Sculptures</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-content">
+
+        </div>
+        <div class="footer">
+            Copywrite &copy; artify
+        </div>
+    </div>
+    <script type="module" src="js/modernArt.js"></script>
+</body>
+
+</html>
